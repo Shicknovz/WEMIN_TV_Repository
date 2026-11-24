@@ -1,0 +1,31 @@
+{
+  "repository": {
+    "id": "io.github.shicknovz.wemin-tv",
+    "name": "WEMIN TV",
+    "maintainer": "Shicknovz",
+    "description": "Aplicativos WEMIN TV para Samsung Tizen. Distribuição independente do catálogo comunitário Apps2Samsung.",
+    "homepage": "https://github.com/Shicknovz/WEMIN_TV_Repository"
+  },
+  "providers": [
+    {
+      "id": "wemin-tv",
+      "category": "iptv",
+      "url": "Shicknovz/WEMIN_TV",
+      "displayName": "WEMIN TV",
+      "take": 1,
+      "match": "^WEMIN-TV-Samsung-[0-9]+[.][0-9]+[.][0-9]+[.]wgt$",
+      "flags": ["closed-source"],
+      "buildInfo": {"name": "WEMIN TV", "description": "Edição original WEMIN TV, com fontes configuradas. Distribuída pelo autor."}
+    },
+    {
+      "id": "wemin-tv-player",
+      "category": "iptv",
+      "url": "Shicknovz/WEMIN_TV_Player",
+      "displayName": "WEMIN TV Player",
+      "take": 1,
+      "match": "^WEMIN-TV-Player-Samsung-[0-9]+[.][0-9]+[.][0-9]+[.]wgt$",
+      "flags": ["closed-source"],
+      "buildInfo": {"name": "WEMIN TV Player", "description": "Player sem fontes predefinidas. O usuário adiciona sua lista M3U ou catálogo próprio."}
+    }
+  ]
+}
